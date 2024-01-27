@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_principal"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_servicos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_clientes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+    <item android:title="Entre em Contato">
+        <menu>
+            <item
+                android:title="Contatos"
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/baseline_account_box_24"
+            />
+            <item
+                android:title="Sobre"
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/sharp_assignment_late_24"
+            />
+        </menu>
+    </item>
+
+</menu>
